@@ -1,0 +1,6 @@
+function randomNumberGenerator(min, max) {
+  // minimum and maximum is inclusive.
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * max) + min;
+}
